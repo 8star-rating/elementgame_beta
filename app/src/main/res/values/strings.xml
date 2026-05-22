@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ElementGame</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="answer_4">Answer 4</string>
+    <string name="total_questions">Total Questions</string>
+    <string name="this_will_be_the_question">This will be the question</string>
+    <string name="submit">Submit</string>
+    <string name="the_nelement_ngame">The\nElement\nGame</string>
+    <string name="start">Play</string>
+    <string name="exit">Exit</string>
+    <string name="play">Click \'Play\' to start</string>
+    <string name="game">Select Game Mode</string>
+    <string name="symbol_to_name">Symbol To Name</string>
+    <string name="number_to_name">Number to Name</string>
+    <string name="element_type">Element Type</string>
+    <string name="polyatomic_ions">Polyatomic Ions</string>
+    <string name="back">Back</string>
+    <string name="symbol_to_name_launch">Symbol To Name</string>
+    <string name="instruction1">Type the correct name of the\nelement in the text box.</string>
+    <string name="proceed">Proceed</string>
+    <string name="back1">Back</string>
+    <string name="element_type_name">Element Type</string>
+    <string name="instruction3">Type the correct classification\nof the element</string>
+    <string name="type_element_name">Type element name...</string>
+    <string name="submit_game">Submit</string>
+    <string name="element_name">Element:</string>
+    <string name="placeholder">---</string>
+    <string name="classification">Type the classification</string>
+    <string name="instruction2">Type the correct name of the\natomic number in the text box.</string>
+    <string name="type_ion_name">Type ion name...</string>
+</resources>

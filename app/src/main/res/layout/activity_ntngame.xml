@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FBC4FD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".NTNGame">
+
+    <TextView
+        android:id="@+id/that_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/courier_prime"
+        android:text="Number:"
+        android:textAlignment="center"
+        android:textColor="#1E103B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/random_numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/that_questions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/placeholder"
+        android:fontFamily="@font/courier_prime"
+        android:textAlignment="center"
+        android:textColor="#616068"
+        android:textSize="95sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/type_element_name"
+        android:backgroundTint="#F0F0FF"
+        android:textColorHint="#626569"
+        android:importantForAutofill="no"
+        android:inputType="textCapSentences"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_below="@+id/random_numb"
+        android:textColor="@color/black"
+        android:fontFamily="@font/courier_prime"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/submit2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/input2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit_game"
+        android:backgroundTint="#F0F0FF"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>

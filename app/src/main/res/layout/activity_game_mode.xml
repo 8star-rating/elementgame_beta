@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7FFDD"
+    android:padding="20dp"
+    tools:context=".GameMode">
+
+    <TextView
+        android:id="@+id/game_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/courier_prime"
+        android:text="@string/game"
+        android:textAlignment="center"
+        android:textColor="#1E103B"
+        android:textSize="35sp"/>
+
+    <LinearLayout
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/symbton"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#CCC8FC"
+            android:text="@string/symbol_to_name"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/courier_prime"
+            tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+        <Button
+            android:id="@+id/numbton"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#FBC4FD"
+            android:text="@string/number_to_name"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/courier_prime"
+            tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+        <Button
+            android:id="@+id/elmnt"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#A1FFFD"
+            android:text="@string/element_type"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/courier_prime"
+            tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+        <Button
+            android:id="@+id/plytmc"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#6C97FA"
+            android:text="@string/polyatomic_ions"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/courier_prime"
+            tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#F85050"
+            android:text="@string/back"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/courier_prime"
+            tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+    </LinearLayout>
+
+</RelativeLayout>
