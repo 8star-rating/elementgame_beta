@@ -1,0 +1,1 @@
+Originally a Java Swing GUI app, this concept was formed from my Chemistry classes back in 11th grade where we have to memorize a LOT of elements and essentially, polyatomic ions. If I can continue this in the future, expect I would add a lot more options.
